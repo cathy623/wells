@@ -1,0 +1,65 @@
+.listing {
+    background: gray; 
+   
+    border-radius: 30px;
+    padding-bottom: 50px;
+   
+    
+   
+  }
+
+  button{
+    border: solid 1px lightgreen;
+    background:gray;
+    color: white;
+    
+    
+
+  }
+  
+  .listing-heading {
+    color: lightgreen;
+    padding-left:20px;
+    padding-top: 0px;
+    
+  }
+  .listing-photo {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+  
+  .listing-location::before {
+    content: url("/assets/location-pin.svg") / "";
+  }
+  
+  section.listing a {
+    padding-left: 50px;
+    text-decoration: none;
+    color: lightseagreen;
+    background: gray;
+  }
+  section.listing a::after {
+    content: "\203A";
+    margin-left: 5px;
+  }
+  .bio{
+    size: 100px;
+    color: blue;
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: top;
+    padding-top: 10px
+  }
+  .images{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+  section{
+    background-color: lightslategray;
+    
+  }
